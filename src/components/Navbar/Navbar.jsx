@@ -15,12 +15,11 @@ const Navbar = () => {
                     <img src={images.logo} alt='Logo of Tomasz Gołąb portfolio site'/>
                 </div>
                 <ul className='app__navbar-links'>
-                    {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
+                    {['home', 'about', 'information', 'work', 'skills', 'contact'].map((item) => (
                         <li className='app__flex p-text' key={`link-${item}`}>
                            <div />
                             <a href={`#${item}`}>{item}</a>
                         </li>
-
                     ) )}
                 </ul>
                 <div className='app__navbar-menu'>
@@ -33,7 +32,7 @@ const Navbar = () => {
                         >
                             <HiX onClick={() => setToggle(false)}/>
                             <ul>
-                            {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
+                            {['home', 'about', 'information', 'work', 'skills', 'contact'].map((item) => (
                                 <li key={item}>
                                     <a href={`#${item}`} onClick={() => setToggle(false)}>{item}</a>
                                 </li>
@@ -42,6 +41,9 @@ const Navbar = () => {
                         </motion.div>
                     )}
 
+                </div>
+                <div className="app__navbar-CV">
+                    <a href="https://drive.google.com/uc?export=download&id=19jKXujydoATY4keH0xCTf1CatGv9lh6D"><button className="CV-btn">Download my CV</button></a>
                 </div>
             </nav>
         </div>

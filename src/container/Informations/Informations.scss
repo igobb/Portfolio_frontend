@@ -1,0 +1,117 @@
+.app__informations-wrapper {
+  position: relative;
+  padding: 1rem 0 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    border-bottom: 5px solid var(--secondary-color);
+    color:  var(--text-strong);
+    left: 32%;
+    top: 0%;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    border-bottom: 5px solid var(--secondary-color);
+    color:  var(--text-strong);
+    right: 32%;
+    bottom: 0%;
+  }
+}
+
+.app__informations {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+
+  ul {
+    margin: 1rem 2rem;
+
+    li {
+      list-style-type: none;
+      color: var(--black-color);
+
+      strong {
+        color: var(--secondary-color)
+      }
+
+      a {
+        text-decoration: none;
+        color: var(--brown-color);
+      }
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.graph__about_me {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+
+  h1 {
+    text-align: center;
+    margin-top: 2rem;
+    color: var(--secondary-color)
+  }
+
+}
+
+.experience, .education {
+  margin: 0 auto;
+  max-width: 650px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr;
+}
+
+.timeline__component {
+  margin: 0 20px 20px 20px;
+  font-size: 0.9rem;
+}
+
+.timeline__component--background {
+  padding: 1em;
+  background-color: var(--white-color);
+  border: 1px solid var(--gray-color);
+  border-radius: 10px;
+}
+
+.timeline__date--right {
+  text-align: right;
+  font-weight: bold;
+}
+
+.timeline__date--left {
+  text-align: left;
+  font-weight: bold;
+}
+
+.timeline__middle {
+  position: relative;
+  background-color: var(--secondary-color);
+}
+
+.timeline__point  {
+  position: absolute;
+  top: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+}

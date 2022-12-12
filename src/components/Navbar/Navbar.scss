@@ -163,3 +163,22 @@
     display: none;
   }
 }
+
+.app__navbar-CV {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .CV-btn {
+    color: var(--gray-color);
+    text-transform: uppercase;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-base);
+
+    &:hover { //hover a
+      color: var(--secondary-color)
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.scss'
+import { AppWrapp } from "../../wrapper"
 
 import { motion } from 'framer-motion'
 import { images } from '../../constans'
@@ -19,7 +20,7 @@ const scaleVariants = {
 const Header = () => {
 
     return (
-        <div id="home" className='app__header app__flex'>
+        <div className='app__header app__flex'>
             <motion.div
                 whileInView={{ x: [-200, 0], opacity: [0, 1] }}
                 transition={{ duration: 0.5 }}
@@ -49,7 +50,7 @@ const Header = () => {
                 transition={{ duration: 0.5, delayChildren: 1 }}
                 className='app__header-img'
             >
-                <img src={images.profile} alt='profile background' />
+                <img className="app__header-profileImg" src={images.profile} alt='profile background' />
                 <motion.img
                     whileInView={{ scale: [0, 1] }}
                     transition={{ duration: 1, ease: 'easeInOut' }}
@@ -73,4 +74,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default AppWrapp(Header, 'home');

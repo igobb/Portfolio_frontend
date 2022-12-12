@@ -20,7 +20,7 @@
 
   flex: 1;
   flex-direction: row;
-  padding: 6rem 2rem 0;
+  padding: 5rem 2rem 0;
 
   @media screen and (min-width: 2000px) {
     padding-top: 8rem;
@@ -162,7 +162,7 @@
   position: relative;
 
   img {
-    width: 100%;
+    width: 90%;
     object-fit: contain;
     z-index: 1;
   }
