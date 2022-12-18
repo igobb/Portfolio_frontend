@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.scss'
-import { AppWrapp } from "../../wrapper"
+import { AppWrap } from "../../wrapper"
 
 import { motion } from 'framer-motion'
 import { images } from '../../constans'
@@ -74,4 +74,4 @@ const Header = () => {
     );
 };
 
-export default AppWrapp(Header, 'home');
+export default AppWrap(Header, 'home');

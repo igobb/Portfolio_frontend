@@ -1,3 +1,9 @@
+.app__information {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+}
+
 .app__informations-wrapper {
   position: relative;
   padding: 1rem 0 2.5rem;

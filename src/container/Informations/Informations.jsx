@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './Informations.scss'
-import { AppWrapp } from '../../wrapper'
+import {AppWrap, MotionWrap} from '../../wrapper'
 
-import { urlFor, client } from "../../client";
+import { client } from "../../client";
 
 const Information = () => {
     const [informations, setInformations] = useState([]);
@@ -111,4 +111,4 @@ const Information = () => {
     );
 };
 
-export default AppWrapp(Information, 'information');
+export default AppWrap(MotionWrap(Information, 'app__information'), 'information', 'app__primarybg')
