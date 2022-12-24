@@ -17,18 +17,17 @@ const Navbar = () => {
                 <ul className='app__navbar-links'>
                     {['home', 'about', 'information', 'work', 'skills', 'contact'].map((item) => (
                         <li className='app__flex p-text' key={`link-${item}`}>
-                           <div />
                             <a href={`#${item}`}>{item}</a>
                         </li>
                     ) )}
+                    <a href="https://drive.google.com/uc?export=download&id=19jKXujydoATY4keH0xCTf1CatGv9lh6D"><button className="CV-btn">Download my CV</button></a>
                 </ul>
                 <div className='app__navbar-menu'>
                     <HiMenu onClick={() => setToggle(true)} />
-
                     {toggle && (
                         <motion.div
-                        whileInView={{ x: [350, 0] }}
-                        transition={{ duration: 0.7, ease: 'easeOut' }}
+                        whileInView={{ x: [200, 0] }}
+                        transition={{ duration: 1, ease: 'easeOut' }}
                         >
                             <HiX onClick={() => setToggle(false)}/>
                             <ul>
@@ -37,13 +36,10 @@ const Navbar = () => {
                                     <a href={`#${item}`} onClick={() => setToggle(false)}>{item}</a>
                                 </li>
                             ))}
+                                <a href="https://drive.google.com/uc?export=download&id=19jKXujydoATY4keH0xCTf1CatGv9lh6D"><button className="CV-btn">Download my CV</button></a>
                             </ul>
                         </motion.div>
                     )}
-
-                </div>
-                <div className="app__navbar-CV">
-                    <a href="https://drive.google.com/uc?export=download&id=19jKXujydoATY4keH0xCTf1CatGv9lh6D"><button className="CV-btn">Download my CV</button></a>
                 </div>
             </nav>
         </div>

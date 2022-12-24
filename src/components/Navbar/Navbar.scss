@@ -76,6 +76,29 @@
   @media screen and (max-width: 900px) {
     display: none;
   }
+
+  .CV-btn {
+    display: flex;
+    color: var(--gray-color);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: var(--font-base);
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    margin: 0 2rem;
+    text-decoration: none;
+
+
+    &:hover { //hover a
+      color: var(--secondary-color);
+      text-decoration: none!important;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .app__navbar-menu {
@@ -103,17 +126,14 @@
     right: 0;
     z-index: 5;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;
     padding: 1rem;
-    background: url('../../assets/bgWhite.png');
     background-color: var(--white-color);
-    background-size: cover;
-    background-repeat: repeat;
     box-shadow: 0 0 30px rgba(168, 168, 168, 0.5);
 
-    width: 80%;
+    width: 70%;
     height: 100vh;
 
     svg {
@@ -129,11 +149,11 @@
       width: 100%;
 
       list-style: none;
-      margin: 0;
+      margin: 5% 0;
       padding: 0;
       display: flex;
       justify-content: flex-start;
-      align-items: flex-start;
+      align-items: center;
       flex-direction: column;
 
       li {
@@ -154,6 +174,23 @@
       }
     }
 
+    .CV-btn {
+      color: var(--gray-color);
+      text-decoration: none;
+      font-size: 1rem;
+      font-family: var(--font-base);
+      text-transform: uppercase;
+      font-weight: 500;
+      transition: all 0.2s ease-in-out;
+      border: none;
+      margin: 1rem;
+      background-color: var(--white-color);
+
+      &:hover { //hover a
+        color: var(--secondary-color)
+      }
+    }
+
     @media screen and (min-width: 900px) {
       display: none;
     }
@@ -161,26 +198,5 @@
 
   @media screen and (min-width: 900px) {
     display: none;
-  }
-}
-
-.app__navbar-CV {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-
-  .CV-btn {
-    color: var(--gray-color);
-    text-transform: uppercase;
-    font-weight: 500;
-    border: none;
-    cursor: pointer;
-    font-family: var(--font-base);
-    background-color: transparent;
-
-    &:hover { //hover a
-      color: var(--secondary-color)
-    }
   }
 }
