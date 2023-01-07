@@ -1,26 +1,34 @@
-<div align="center">
-<h1>My Portfolio site.</h1>
+# My Portfolio site
 
-<h2>Live 💻</h2>
 
-⭐ <a href="https://igobb-portfolio.netlify.app/">Portfolio site</a> ⭐
+## About
+* [Introduction](#introduction)
+* [Technologies](#technologies-used)
+* [Setup](#setup)
+* [Project Status](#project-status)
+* [Contact](#contact)
 
-<h2>About 🔍</h2>
 
+## Introduction
 That is my portfolio site, which descripe my skills and my projects.
 
 
+## Technologies Used
+* Sanity as a backend and databases
+* React
+* React icons
+* SCSS
+* Animations - Framer motion
 
-<h2>To create this site I use: 💎</h2>
+## Setup
+To run this project, open this link:
 
-Sanity as a backend and databases
 
-React
+⭐ <a href="https://igobb-portfolio.netlify.app/">Portfolio site</a> ⭐
 
-React icons
+## Project Status
+Project is: _complete_
 
-SCSS
 
-Animations - Framer motion
-
-</div>
+## Contact
+Created by [@IGoB](https://igobb-portfolio.netlify.app/) - feel free to contact me!
