@@ -3,7 +3,6 @@ import './About.scss'
 import { AppWrap, MotionWrap } from "../../wrapper";
 
 import { motion } from 'framer-motion'
-import { images } from '../../constans'
 
 import { urlFor, client } from "../../client";
 
