@@ -24,7 +24,7 @@ That is my portfolio site, which descripe my skills and my projects.
 To run this project, open this link:
 
 
-⭐ <a href="https://igobb-portfolio.netlify.app/">Portfolio site</a> ⭐
+⭐ <a href="https://igobb.github.io/Portfolio_frontend/">Portfolio site</a> ⭐
 
 ## Project Status
 Project is: _complete_
