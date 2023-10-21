@@ -51,7 +51,7 @@ const Information = () => {
                             <div className="timeline__date timeline__date-left">2021-2022</div>
                         </div>
                         <div className="timeline__component">
-                            <div className="timeline__date timeline__date-right">2018 to now</div>
+                            <div className="timeline__date timeline__date-right">2018-2023</div>
                         </div>
                         <div className="timeline__middle">
                             <div className="timeline__point"></div>
@@ -68,7 +68,7 @@ const Information = () => {
                             <div className="timeline__point"></div>
                         </div>
                         <div className="timeline__component">
-                            <div className="timeline__date timeline__date-left">2021-2022</div>
+                            <div className="timeline__date timeline__date-left">2023 to now</div>
                         </div>
                     </div>
                     <h1>Education</h1>
