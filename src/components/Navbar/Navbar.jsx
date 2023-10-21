@@ -20,7 +20,7 @@ const Navbar = () => {
                             <a href={`#${item}`}>{item}</a>
                         </li>
                     ) )}
-                    <a href="https://drive.google.com/uc?export=download&id=19jKXujydoATY4keH0xCTf1CatGv9lh6D"><button className="CV-btn">Download my CV</button></a>
+                    <a href="https://drive.google.com/uc?export=download&id=13GZDQULuoj7x4Gl_ic9pb1Ifw2fAyL0X"><button className="CV-btn">Download my CV</button></a>
                 </ul>
                 <div className='app__navbar-menu'>
                     <HiMenu onClick={() => setToggle(true)} />
@@ -36,7 +36,7 @@ const Navbar = () => {
                                     <a href={`#${item}`} onClick={() => setToggle(false)}>{item}</a>
                                 </li>
                             ))}
-                                <a href="https://drive.google.com/uc?export=download&id=19jKXujydoATY4keH0xCTf1CatGv9lh6D"><button className="CV-btn">Download my CV</button></a>
+                                <a href="https://drive.google.com/uc?export=download&id=13GZDQULuoj7x4Gl_ic9pb1Ifw2fAyL0X"><button className="CV-btn">Download my CV</button></a>
                             </ul>
                         </motion.div>
                     )}

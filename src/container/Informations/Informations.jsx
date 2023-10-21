@@ -60,6 +60,16 @@ const Information = () => {
                             <h4>Handel Det. Art. Przem. i Spoż. Gołąb Stanisław</h4>
                             <p className="p-text">IT service, marketing, sales</p>
                         </div>
+                        <div className="timeline__component timeline__component-background">
+                            <h4>Landingi</h4>
+                            <p className="p-text">Frontend Developer</p>
+                        </div>
+                        <div className="timeline__middle">
+                            <div className="timeline__point"></div>
+                        </div>
+                        <div className="timeline__component">
+                            <div className="timeline__date timeline__date-left">2021-2022</div>
+                        </div>
                     </div>
                     <h1>Education</h1>
                     <div className="graph-education">

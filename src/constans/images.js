@@ -7,6 +7,10 @@ import javascript from '../assets/javascript.png';
 import node from '../assets/node.png';
 import react from '../assets/react.png';
 import sass from '../assets/sass.png';
+import typescript from '../assets/typescript.png';
+import tailwind from "../assets/tailwind.svg"
+import vite from "../assets/vite.svg"
+import nextjs from "../assets/nextjs.svg"
 
 import profile from '../assets/profile.png';
 import shape from '../assets/shape.svg';
@@ -24,4 +28,8 @@ export default {
     profile,
     shape,
     logo,
+    typescript,
+    tailwind,
+    vite,
+    nextjs
 };
